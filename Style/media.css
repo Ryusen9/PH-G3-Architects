@@ -12,13 +12,34 @@
         padding: 20px;
     }
 
-    .banner-text-container button{
+    button{
         padding: 14px 18px;
         margin-bottom: 20px;
     }
 
     .banner-tittle p{
         margin-bottom: 10px;
+    }
+
+    .feature-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .feature-right{
+        padding: 50px;
+        text-align: center;
+    }
+
+    .right-description{
+        padding: 20px;
+    }
+
+    .feature-left{
+        width: 90%;
+    }
+    .feature-right{
+        width: 90%;
     }
 }
 
@@ -30,6 +51,13 @@
     .nav-items{
         width: 60%;
     }
+
+    .feature-left{
+        width: 90%;
+    }
+    .feature-right{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 992px){
@@ -39,6 +67,13 @@
 
     .nav-items{
         width: 60%;
+    }
+
+    .feature-left{
+        width: 90%;
+    }
+    .feature-right{
+        width: 90%;
     }
 }
 
@@ -51,7 +86,7 @@
         width: 60%;
     }
     
-    .banner-text-container button{
+    button{
         padding: 10px 14px;
         font-size: 1rem;
         margin-bottom: 10px;
@@ -68,6 +103,30 @@
     .banner-image-container{
         margin-bottom: 15px;
     }
+
+    .feature-container{
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .feature-tittle{
+        font-size: 2rem;
+    }
+
+    .right-description{
+        padding: 0;
+    }
+
+    .feature-left{
+        20px
+    }
+
+    .right-container{
+        gap: 15px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
 }
 
 @media screen and (max-width: 576px){
@@ -100,5 +159,22 @@
 
     .open{
         right: 0;
+    }
+    .feature-left{
+        width: 90%;
+    }
+    .feature-right{
+        width: 90%;
+    }
+    .feature-left-image-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .right-description{
+        padding: 0;
+    }
+
+    .right-container{
+        gap: 15px;
     }
 }
